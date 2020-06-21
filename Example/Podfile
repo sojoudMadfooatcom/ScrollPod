@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'DScrollView_Example' do
   pod 'DScrollView', :path => '../'
+  pod 'Alamofire'
 
   target 'DScrollView_Tests' do
     inherit! :search_paths
